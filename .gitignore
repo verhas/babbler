@@ -1,0 +1,24 @@
+# JavaScript
+javascript/node_modules/
+
+# Python
+python/__pycache__/
+python/**/__pycache__/
+python/.pytest_cache/
+python/*.egg-info/
+python/build/
+python/dist/
+python/.venv/
+
+# Java
+java/target/
+
+# Go
+go/*.test
+
+# IDE
+.idea/
+.vscode/
+
+# Claude Code local settings (machine-specific, not shared)
+.claude/settings.local.json

@@ -1,0 +1,16 @@
+{
+  "name": "babbler",
+  "version": "1.0.0",
+  "description": "Convert integers to pronounceable, human-friendly identifiers using CV syllable pairs",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["id", "identifier", "encoder", "human-readable", "slug"],
+  "author": "Peter Verhas",
+  "license": "MIT"
+}
