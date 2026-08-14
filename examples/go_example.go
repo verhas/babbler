@@ -9,7 +9,7 @@ package main
 import (
 	"fmt"
 
-	"babbler/identifier"
+	"github.com/verhas/babbler/identifier"
 )
 
 func main() {

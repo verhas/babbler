@@ -7,12 +7,22 @@ go test ./...
 go run ./cmd/id-tool encode 10000
 ```
 
+Add as a dependency:
+
+```bash
+go get github.com/verhas/babbler/identifier@latest
+```
+
 ```go
-import "babbler/identifier"
+import "github.com/verhas/babbler/identifier"
 
 identifier.NumberToID(10000) // "Talo Buno", nil
 identifier.NumberToID(10001) // "Patu Luta", nil
 ```
+
+Published on [pkg.go.dev](https://pkg.go.dev/github.com/verhas/babbler/identifier)
+— see [release.sh](release.sh) for how new versions get published (a
+git tag, not an upload).
 
 ## API
 

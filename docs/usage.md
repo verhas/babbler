@@ -62,8 +62,12 @@ go test ./...
 go run ./cmd/id-tool encode 10000
 ```
 
+```bash
+go get github.com/verhas/babbler/identifier@latest
+```
+
 ```go
-import "babbler/identifier"
+import "github.com/verhas/babbler/identifier"
 
 identifier.NumberToID(10000) // "Talo Buno"
 identifier.NumberToID(10001) // "Patu Luta"

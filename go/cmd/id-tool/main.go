@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 
-	"babbler/identifier"
+	"github.com/verhas/babbler/identifier"
 )
 
 func main() {
